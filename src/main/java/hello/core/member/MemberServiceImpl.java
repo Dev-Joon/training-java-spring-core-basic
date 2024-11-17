@@ -20,7 +20,9 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public Member findMember(Long memberId) {
+        //
         return memberRepository.findById(memberId);
+
     }
 
     //테스트 용도
